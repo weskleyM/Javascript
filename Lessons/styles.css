@@ -1,0 +1,9 @@
+#contTxt {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+#btns {
+    padding-left: 160px;
+}
