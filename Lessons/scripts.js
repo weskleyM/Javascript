@@ -435,4 +435,44 @@ nome1.push(...nome2);
 console.log(nome1);
 console.log(...nome1);*/
 
+/*function somar(...numeros) {
+    let total = 0;
+    for (let numero of numeros) {
+        total += numero;
+    }
+    return total;
+}
+
+let a = 1,
+    b = 2,
+    c = 3,
+    d = 4;
+
+console.log(somar(a, b));
+console.log(somar(a, b, c));
+console.log(somar(a, b, c, d));*/
+
+/*function somar(x, y) {
+    let res = x + y;
+    return res;
+}
+
+function somar2(x, y, callback) {
+    let res = x + y;
+    callback(res);
+}
+
+function mostrar(saida) {
+    console.log(saida);
+}
+
+function mostrarDOM(saida) {
+    document.getElementById("mostrar").innerHTML = saida;
+}
+
+//let total = somar(2, 3);
+//mostrar(total);
+//mostrarDOM(total)
+somar2(2, 3, mostrarDOM);*/
+
 
