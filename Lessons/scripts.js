@@ -475,4 +475,52 @@ function mostrarDOM(saida) {
 //mostrarDOM(total)
 somar2(2, 3, mostrarDOM);*/
 
+/*function captalize(elem, index, array) {
+    array[index] = elem[0].toUpperCase() + elem.substring(1);
+}
 
+function mostrar(saida) {
+    console.log(saida);
+}
+
+let nomes = ["maria", "joao", "paula", "tiago"];
+nomes.forEach(captalize);
+nomes.forEach(mostrar);
+
+//console.log(nomes[0]);
+//for (let nome of nomes) {
+//    mostrar(nome);
+//}*/
+
+/*function quadrado(elem) {
+    let x = Math.pow(elem, 2);
+    return x;
+}
+
+function cubo(elem) {
+    let x = Math.pow(elem, 3);
+    return x;
+}
+
+function mostrar(elemts) {
+    console.log(elemts);
+}
+
+let num = [1, 2, 3, 4, 5];
+let quadrados = num.map(quadrado);
+let cubos = num.map(cubo);
+quadrados.forEach(mostrar);
+cubos.forEach(mostrar);*/
+
+/*function checarIdade(elem) {
+    return elem >= 18;
+}
+
+function mostrar(elemts) {
+    console.log(elemts);
+}
+
+let idades = [15, 23, 12, 45, 18, 64, 16];
+idades.sort();
+let adulto = idades.filter(checarIdade);
+adulto.forEach(mostrar);*/
