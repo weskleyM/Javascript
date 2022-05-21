@@ -268,18 +268,18 @@ area = areaQuad(largura, altura);
 console.log("A area do quadrado é:", area);*/
 
 /*function checarIdade (i) {
-    i = i >= 18 ? "Maior de idade" : "Menor de idade";
+    let x = i >= 18 ? "Maior de idade" : "Menor de idade";
 
-    return i;
+    return x;
 }
 
 let idade = checarIdade(18);
 console.log(idade);
 
 function vencedor (v) {
-    v = v ? console.log("você venceu") : console.log("você perdeu");
+    let y = v ? console.log("você venceu") : console.log("você perdeu");
 
-    return v;
+    return y;
 }
 
 vencedor(false);*/
@@ -404,5 +404,35 @@ for (let i = 0; i < notas.length; i++) {
     x = resto;
     console.log(`${n} notas de ${notas[i]}`);
 }*/
+
+/*let frutas = ["Morango", "Caju", "Banana", "Laranja", "Kiwi"];
+let vegetais = ["Cenoura", "Alface", "Pepino", "Couve"];
+
+let listas = [frutas, vegetais];
+
+listas[0][2] = "Abacate"
+
+for (let lista of listas) {
+    for (let elem of lista) {
+        console.log(elem);
+    }
+}*/
+
+/*let numeros = [2, 5, 7, 4, 3, 8, 1];
+
+let maior = Math.max(...numeros);
+let menor = Math.min(...numeros);
+
+console.log(menor);
+console.log(maior);*/
+
+/*let nome1 = ["Joao", "Maria", "Pedro"];
+let nome2 = ["Ana", "Tiago", "Paula"];
+
+//nome1.push(nome2)
+nome1.push(...nome2);
+
+console.log(nome1);
+console.log(...nome1);*/
 
 
