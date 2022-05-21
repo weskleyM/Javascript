@@ -370,5 +370,39 @@ function toFahren(f) {
     return f;
 }*/
 
+/*let frutas = ["Banana", "Maçã", "Caju", "Morango"];
 
-// 2h15m
+//frutas[1] = "Abacate";
+frutas.push("Manga"); //add to last
+frutas.pop(); //remove last
+frutas.unshift("Manga"); //add to begin
+frutas.shift(); //remove from begin
+
+frutas = frutas.sort().reverse();
+//console.log(frutas);
+//console.log(frutas.length);
+//console.log(frutas.indexOf("Caju")+1);
+for (let fruta of frutas) {
+    console.log(fruta);
+}*/
+
+/*let notas = [100, 50, 20, 10, 5, 2];
+
+let x = 579;
+
+//let notas = [2, 5, 10, 20, 50, 100];
+//for(let i = notas.length - 1; i >= 0; i--) {
+//let resto = x % notas[i]
+//let n = (x - resto) / notas[i]
+//x = resto
+//console.log(`${n} notas de ${notas[i]}`)
+//}
+
+for (let i = 0; i < notas.length; i++) {
+    let resto = x % notas[i];
+    let n = (x - resto) / notas[i];
+    x = resto;
+    console.log(`${n} notas de ${notas[i]}`);
+}*/
+
+
