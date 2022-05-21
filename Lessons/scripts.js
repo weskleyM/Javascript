@@ -524,3 +524,50 @@ let idades = [15, 23, 12, 45, 18, 64, 16];
 idades.sort();
 let adulto = idades.filter(checarIdade);
 adulto.forEach(mostrar);*/
+
+/*function checkOut(total, elem) {
+    return total + elem;
+}
+
+let preços = [5, 10, 15, 20, 25];
+let total = preços.reduce(checkOut);
+
+console.log(`O total dos elementos é: ${total}`);*/
+
+/*function decrescente(x, y) {
+    return y - x;
+}
+
+function crescente(x, y) {
+    return x - y;
+}
+
+function mostrar(elem) {
+    console.log(elem);
+}
+
+let num = [100, 40, 60, 30, 20, 90];
+//num = num.sort(decrescente);
+num = num.sort(crescente);
+num.forEach(mostrar);*/
+
+/*//const hello = function(nome) {
+//    console.log(`Ola ${nome}`);
+//}
+const hello = nome => console.log(`Olá ${nome}`);
+const bday = (nome, idade) => console.log(`Parabens ${nome}! Pelos seus ${idade}`);
+const porcent = (x, y) => x / y * 100;
+
+hello("Weskley");
+bday("Weskley", 23);
+console.log(`${porcent(22, 55)}% de 55 é 22`);
+
+//const decrescente = (x, y) => y - x;
+//const crescente = (x, y) => x - y;
+//const mostrar = elem => console.log(elem);
+
+let num = [30, 90, 50, 40, 60, 10];
+//num = num.sort(decrescente);
+num = num.sort((x, y) => y - x);
+//num.forEach(mostrar);
+num.forEach(elem => console.log(elem));*/
