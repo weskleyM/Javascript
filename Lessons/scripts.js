@@ -571,3 +571,61 @@ let num = [30, 90, 50, 40, 60, 10];
 num = num.sort((x, y) => y - x);
 //num.forEach(mostrar);
 num.forEach(elem => console.log(elem));*/
+
+/*function embaralhar(array) {
+    let indexAtual = array.length;
+
+    while (indexAtual != 0) {
+        let indexAleatorio = Math.floor(Math.random() * array.length);
+        indexAtual--;
+
+        let aux = array[indexAtual];
+        array[indexAtual] = array[indexAleatorio];
+        array[indexAleatorio] = aux;
+    }
+    return array;
+}
+
+let baralho = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
+
+embaralhar(baralho);
+//console.log(baralho);
+baralho.forEach(carta => console.log(carta));*/
+
+/*function login() {
+    function mostrarUsuario() {
+        console.log(`Bem vindo ${usuario}`);
+    }
+    function mostrarInbox() {
+        console.log(`Você tem ${inbox} mensagens`);
+    }
+
+    mostrarUsuario();
+    mostrarInbox();
+}
+
+let usuario = "Weskley";
+let inbox = 0;
+
+login();*/
+
+/*const loja = new Map([
+    ["Pastel", 4],
+    ["Suco", 3],
+    ["Doces", 2],
+]);
+
+loja.set("Refrigerante", 5);
+loja.delete("Doces");
+console.log(loja.size);
+console.log(loja.has("Refrigerante"));
+console.log(loja.has("Doces"));
+
+loja.forEach((value, key) => console.log(`${key}  $${value}`));
+
+let sacola = 0;
+sacola += loja.get("Suco");
+sacola += loja.get("Pastel");
+console.log(`SACOLA: R$ ${sacola}`);*/
+
+// 3h17m
