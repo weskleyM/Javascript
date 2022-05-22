@@ -628,4 +628,194 @@ sacola += loja.get("Suco");
 sacola += loja.get("Pastel");
 console.log(`SACOLA: R$ ${sacola}`);*/
 
-// 3h17m
+/*const carro1 = {
+    modelo: "Mustang",
+    cor: "Vermelho",
+    ano: 2022,
+
+    dirigir: function () {
+        console.log(`Você está dirigindo ${this.modelo}`);
+    },
+
+    parar: function () {
+        console.log("Você está parado");
+    },
+};
+
+const carro2 = {
+    modelo: "Corvette",
+    cor: "Azul",
+    ano: 2020,
+
+    dirigir: function () {
+        console.log(`Você está dirigindo ${this.modelo}`);
+    },
+
+    parar: function () {
+        console.log("Você está parado");
+    },
+};
+
+// console.log(carro1.modelo);
+// console.log(carro2.cor);
+// carro1.dirigir();
+// carro2.parar();
+carro1.dirigir();
+carro2.dirigir();*/
+
+/*class Jogador {
+    placar = 0;
+
+    pause() {
+        console.log(`Você pausou o jogo`);
+    }
+
+    sair() {
+        console.log(`Você saiu do jogo`);
+    }
+}
+
+const j1 = new Jogador();
+
+j1.placar++;
+console.log(j1.placar);*/
+
+/*class Aluno {
+    constructor(nome, idade, sexo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+    }
+
+    estudando() {
+        console.log(`${this.nome} está estudando`);
+    }
+}
+
+const aluno1 = new Aluno("Joao", 23, "M");
+
+console.log(aluno1.nome);
+aluno1.estudando();*/
+
+/*class Carro {
+    static numDeCarros = 0;
+
+    constructor(modelo) {
+        this.modelo = modelo;
+        Carro.numDeCarros++;
+    }
+}
+
+const carro1 = new Carro("Mustang");
+const carro2 = new Carro("Corvette");
+const carro3 = new Carro("Ferrari");
+
+console.log(Carro.numDeCarros);*/
+
+/*class Animal {
+    vivo = true;
+
+    comer() {
+        console.log(`O ${this.nome} está comendo`);
+    }
+    dormir() {
+        console.log(`O ${this.nome} está dormindo`);
+    }
+}
+
+class Gato extends Animal {
+    nome = "Gato";
+
+    correr() {
+        console.log(`O ${this.nome} está correndo`);
+    }
+}
+
+class Passaro extends Animal {
+    nome = "Pássaro";
+
+    voar() {
+        console.log(`O ${this.nome} está voando`);
+    }
+}
+
+class Peixe extends Animal {
+    nome = "Peixe";
+
+    nadar() {
+        console.log(`O ${this.nome} está nadando`);
+    }
+}
+
+const gato = new Gato();
+const passaro = new Passaro();
+const peixe = new Peixe();
+
+console.log(peixe.vivo);
+peixe.comer();
+peixe.nadar();*/
+
+/*class Animal {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+}
+
+class Gato extends Animal {
+    constructor(nome, idade, correrVel) {
+        super(nome, idade);
+        this.correrVel = correrVel;
+    }
+}
+
+class Peixe extends Animal {
+    constructor(nome, idade, nadarVel) {
+        super(nome, idade);
+        this.nadarVel = nadarVel;
+    }
+}
+
+class Passaro extends Animal {
+    constructor(nome, idade, voarVel) {
+        super(nome, idade);
+        this.voarVel = voarVel;
+    }
+}
+
+const gato = new Gato("Gato", 4, 50);
+const peixe = new Peixe("Peixe", 3, 40);
+const passaro = new Passaro("Passaro", 5, 70);
+
+console.log(passaro.nome);
+console.log(passaro.idade);
+console.log(passaro.voarVel);*/
+
+/*class Carro {
+    constructor(potencia) {
+        this._gasolina = 25;
+        this._potencia = potencia;
+    }
+    get potencia() {
+        return `${this._potencia}hp`;
+    }
+    get gasolina() {
+        return `${this._gasolina}L (${this._gasolina / 50 * 100}%)`;
+    }
+    set gasolina(valor) {
+        if (valor > 50) {
+            valor = 50;
+        }
+        this._gasolina = valor;
+    }
+}
+
+let carro = new Carro(400);
+
+carro.gasolina = 100;
+
+console.log(carro.potencia);
+console.log(carro.gasolina);*/
+
+
+// 3h50m
