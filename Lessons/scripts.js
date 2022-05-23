@@ -817,5 +817,118 @@ carro.gasolina = 100;
 console.log(carro.potencia);
 console.log(carro.gasolina);*/
 
+/*function mostrar(carro) {
+    console.log(carro.modelo);
+    console.log(carro.cor);
+    console.log(carro.ano);
+}
 
-// 3h50m
+function mudarCor(carro, cor) {
+    carro.cor = cor;
+}
+
+class Carro {
+    constructor(modelo, cor, ano) {
+        this.modelo = modelo;
+        this.cor = cor;
+        this.ano = ano;
+    }
+}
+
+const carro1 = new Carro("Mustang", "Amarelo", 2020);
+const carro2 = new Carro("Corvette", "Azul", 2021);
+const carro3 = new Carro("Ferrari", "Vermelho", 2019);
+
+mudarCor(carro1, "Dourado")
+mostrar(carro1);*/
+
+/*function corrida(carros) {
+    for(const carro of carros) {
+        carro.dirigir();
+    }
+}
+
+class Carro {
+    constructor(modelo, cor, ano) {
+        this.modelo = modelo;
+        this.cor = cor;
+        this.ano = ano;
+    }
+
+    dirigir() {
+        console.log(`Você está dirigindo ${this.modelo}`);
+    }
+}
+
+const carro1 = new Carro("Mustang", "Amarelo", 2020);
+const carro2 = new Carro("Corvette", "Azul", 2021);
+const carro3 = new Carro("Ferrari", "Vermelho", 2019);
+
+
+const carros = [carro1, carro2, carro3];
+
+// console.log(carros[0].modelo);
+// console.log(carros[1].modelo);
+// console.log(carros[2].modelo);
+
+// carros[0].dirigir();
+
+corrida(carros);*/
+
+/*class Carta {
+    constructor(valor, tipo) {
+        this.valor = valor;
+        this.tipo = tipo;
+    }
+}
+
+let cartas = [
+    new Carta("A", "Copas"),
+    new Carta("A", "Espada"),
+    new Carta("A", "Ouro"),
+    new Carta("A", "Paus"),
+];
+
+//console.log(cartas[0].valor + cartas[0].tipo);
+cartas.forEach((carta) => console.log(`${carta.valor} ${carta.tipo}`));*/
+
+/*try {
+    //console.lag();
+    let x = window.prompt("Digite um número:");
+    x = Number(x);
+
+    if (isNaN(x)) throw "Isto não é um número!";
+    if (x == 0) throw "estava vazio!";
+
+    console.log(`${x} é um número`);
+} catch (error) {
+    console.log(error);
+} finally {
+    console.log(`Isto sempre será executado!`);
+}*/
+
+/*function primMensagem(item, preco) {
+    alert(`Compre este ${item} por R$${preco}`);
+}
+
+function segMensagem() {
+    alert(`Não é pegadinha!`);
+}
+
+function tercMensagem() {
+    alert(`Agora!`);
+}
+
+let item = "Curso em Video";
+let preco = 29.99;
+
+let timer1 = setTimeout(primMensagem, 1000, item, preco);
+let timer2 = setTimeout(segMensagem, 1500);
+let timer3 = setTimeout(tercMensagem, 2000);
+
+document.getElementById("btn-comprar").onclick = function () {
+    clearTimeout(timer1);
+    clearTimeout(timer2);
+    clearTimeout(timer3);
+    alert(`Obrigado por comprar ${item} conosco!`);
+};*/
