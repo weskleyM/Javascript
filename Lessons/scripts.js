@@ -932,3 +932,48 @@ document.getElementById("btn-comprar").onclick = function () {
     clearTimeout(timer3);
     alert(`Obrigado por comprar ${item} conosco!`);
 };*/
+
+/*function contUp() {
+    cont++;
+    console.log(cont);
+    if (cont >= max) {
+        clearInterval(myTimer);
+    }
+}
+
+let cont = 0;
+let max = window.prompt(`Contar até que número?`);
+max = Number(max);
+
+const myTimer = setInterval(contUp, 1000);*/
+
+/*function formatDate(data) {
+    let dia = data.getDate();
+    let mes = data.getMonth() + 1;
+    let ano = data.getFullYear();
+
+    return `${dia}/${mes}/${ano}`;
+}
+
+let data = new Date();
+// let data = new Date(0);
+// let data = new Date(2023, 0, 1, 2, 3, 4, 5);
+// let data = new Date("janeiro 1, 2023 00:00:00");
+// let ano = data.getFullYear();
+// let dia = data.getDate();
+// let semana = data.getDay();
+// let mes = data.getMonth();
+// data.setUTCFullYear(2035);
+// data.setMonth(8)
+// data.setDate(15)
+
+// data = data.toLocaleString();
+// console.log(data)
+data = formatDate(data);
+document.getElementById("myLabel").innerHTML = data;
+// document.getElementById("myLabel").innerHTML = ano;
+// document.getElementById("myLabel").innerHTML = dia;
+// document.getElementById("myLabel").innerHTML = semana;
+// document.getElementById("myLabel").innerHTML = mes;*/
+
+// 4h24m
