@@ -1048,3 +1048,27 @@ loadFile()
     .then((valor) => console.log(valor))
     .catch((error) => console.log(error));*/
 
+/*async function loadFile() {
+    let fileLoaded = false;
+
+    if (fileLoaded) {
+        return "File loaded";
+    } else {
+        throw "File NOT loaded";
+    }
+}
+
+async function startProcess() {
+    try {
+        let msg = await loadFile();
+        console.log(msg);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+startProcess();*/
+
+import { PI, getArea, getCircuf } from "./math_util.js";
+
+console.log(PI);
