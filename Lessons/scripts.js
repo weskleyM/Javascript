@@ -976,4 +976,75 @@ document.getElementById("myLabel").innerHTML = data;
 // document.getElementById("myLabel").innerHTML = semana;
 // document.getElementById("myLabel").innerHTML = mes;*/
 
-// 4h24m
+function update() {
+    let data = new Date();
+    label.innerHTML = formatTime(data);
+
+    function formatTime(data) {
+        let horas = data.getHours();
+        let minutos = data.getMinutes();
+        let segundos = data.getSeconds();
+        let amOrPm = horas >= 12 ? "pm" : "am";
+
+        horas = formatZero(horas);
+        minutos = formatZero(minutos);
+        segundos = formatZero(segundos);
+
+        return `${horas}:${minutos}:${segundos} ${amOrPm}`;
+    }
+}
+
+function formatZero(valor) {
+    valor = valor.toString();
+    return valor.length < 2 ? "0" + valor : valor;
+}
+
+const label = document.getElementById("myLabel");
+
+update();
+setInterval(update, 1000);
+
+/*console.time("Response Time");
+
+// alert("Clique no botão OK");
+setTimeout(() => console.log("HELLO"), 3000);
+
+console.timeEnd("Response Time");*/
+
+/*const promise = new Promise((resolve, reject) => {
+    let fileLoaded = false;
+
+    if (fileLoaded) {
+        resolve("File loaded");
+    } else {
+        reject("File NOT loaded");
+    }
+});
+
+// const wait = (time) =>
+//     new Promise((resolve) => {
+//         setTimeout(resolve, time);
+//     });
+
+// wait(3000).then(() => console.log(`Obrigado por esperar!`));
+
+promise
+    .then((valor) => console.log(valor))
+    .catch((error) => console.log(error));*/
+
+/*async function loadFile() {
+    let fileLoaded = false;
+
+    if (fileLoaded) {
+        return "File loaded";
+        // return Promise.resolve("File loaded"); // remove async
+    } else {
+        throw "File NOT loaded";
+        // return Promise.reject("File NOT loaded"); // remove async
+    }
+}
+
+loadFile()
+    .then((valor) => console.log(valor))
+    .catch((error) => console.log(error));*/
+
