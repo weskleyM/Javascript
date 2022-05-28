@@ -1069,6 +1069,54 @@ async function startProcess() {
 
 startProcess();*/
 
-import { PI, getArea, getCircuf } from "./math_util.js";
+/*import * as MathUtils from "./math_util.js"
+// import { PI, getArea, getCircuf } from "./math_util.js";
 
-console.log(PI);
+console.log(MathUtils.PI);
+
+let circuf = MathUtils.getCircuf(10);
+console.log(circuf);
+
+let area = MathUtils.getArea(10);
+console.log(area);*/
+
+/*console.dir(document);
+console.log(document.title);
+console.log(document.URL);
+
+document.title = "Mudando titulo";
+document.location = "http://br.youtube.com";
+
+document.body.style.backgroundColor = "red";
+document.getElementById("myDiv").innerHTML = "HELLO";*/
+
+/*let elemts = document.getElementById("myMenu");
+elemts.style.backgroundColor = "skyblue";
+
+let frutas = document.getElementsByName("frutas");
+frutas.forEach((fruta) => {
+    if (fruta.checked) {
+        console.log(fruta.value);
+    }
+});
+
+let vegetais = document.getElementsByTagName("li");
+vegetais[2].style.backgroundColor = "red";
+
+let doces = document.getElementsByClassName("doces");
+doces[2].style.backgroundColor = "green";
+
+let ids = document.querySelector("#myMenu");
+ids.style.backgroundColor = "orange";
+
+let classes = document.querySelector(".doces");
+classes.style.backgroundColor = "yellow";
+
+// let elem = document.querySelector("li");
+// elem.style.backgroundColor = "lightgray";
+let elem = document.querySelectorAll("li");
+elem.forEach((elem) => {
+    elem.style.backgroundColor = "lightgray";
+});*/
+
+// 5h03m
