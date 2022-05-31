@@ -1119,4 +1119,51 @@ elem.forEach((elem) => {
     elem.style.backgroundColor = "lightgray";
 });*/
 
-// 5h03m
+/*let elem = document.querySelector("#sobremesas");
+let children = Array.from(elem.children);
+children.forEach((child) => (child.style.backgroundColor = "lightgreen"));*/
+
+/*const nome = document.createElement("h1");
+// nome.innerHTML = "JS";
+// nome.innerHTML = window.prompt("Digite seu nome:")
+// nome.textContent = window.prompt("Digite seu nome:");
+document.body.append(nome);
+
+const mylist = document.querySelector("#frutas");
+const listItem = document.createElement("li");
+listItem.textContent = "Mango";
+// mylist.append(listItem);
+// mylist.prepend(listItem);
+mylist.insertBefore(listItem, mylist.getElementsByTagName("li")[2]);*/
+
+/*const title = document.getElementById("myTitle");
+title.style.backgroundColor = "#202020";
+title.style.color = "rgb(50, 200, 250)";
+title.style.fontFamily = "arial";
+title.style.textAlign = "center";
+title.style.display = "block";*/
+
+/*const elem = document.getElementById("myDiv");
+// const elem = document.getElementById("myBtn");
+// const elem = document.body;
+// const elem = document.getElementById("myTxt");
+
+// elem.onclick = doSomething;
+// elem.onload = doSomething;
+// elem.onchange = doSomething;
+// elem.onmouseover = doSomething;
+// elem.onmouseout = doSomethingElse;
+elem.onmousedown = doSomething;
+elem.onmouseup = doSomethingElse;
+
+function doSomething() {
+    // alert("Você clicou no botão");
+    elem.style.backgroundColor = "red";
+}
+
+function doSomethingElse() {
+    // alert("Você clicou no botão");
+    elem.style.backgroundColor = "aqua";
+}*/
+
+// 5h24m

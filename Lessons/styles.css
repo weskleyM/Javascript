@@ -7,3 +7,9 @@
 #btns {
     padding-left: 160px;
 }
+
+#myDiv {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
