@@ -1141,7 +1141,7 @@ title.style.backgroundColor = "#202020";
 title.style.color = "rgb(50, 200, 250)";
 title.style.fontFamily = "arial";
 title.style.textAlign = "center";
-title.style.display = "block";*/
+title.style.visibility = "block";*/
 
 /*const elem = document.getElementById("myDiv");
 // const elem = document.getElementById("myBtn");
@@ -1166,4 +1166,71 @@ function doSomethingElse() {
     elem.style.backgroundColor = "aqua";
 }*/
 
-// 5h24m
+/*const innerDiv = document.getElementById("innerDiv");
+const outerDiv = document.getElementById("outerDiv");
+// innerDiv.addEventListener("mouseover", changeRed);
+// innerDiv.addEventListener("mouseout", changeAqua);
+innerDiv.addEventListener("click", changeBlue);
+outerDiv.addEventListener("click", changeBlue, true);
+
+// function changeRed() {
+//     innerDiv.style.backgroundColor = "red";
+// }
+
+// function changeAqua() {
+//     innerDiv.style.backgroundColor = "aquamarine";
+// }
+
+function changeBlue() {
+    alert(`Você selecionou ${this.id}`);
+    this.style.backgroundColor = "blue";
+}*/
+
+/*const myBtn = document.querySelector("#myBtn");
+const myImg = document.querySelector("#myImg");
+
+myBtn.addEventListener("click", () => {
+    if (myImg.style.visibility == "visible") {
+        myImg.style.visibility = "hidden";
+    } else {
+        myImg.style.visibility = "visible";
+    }
+});*/
+
+/*const myDiv = document.getElementById("myDiv");
+// window.addEventListener("keydown", (event) => console.log(event.key));
+window.addEventListener("keydown", move);
+
+let x = 0;
+let y = 0;
+
+function move(event) {
+    switch (event.key) {
+        case "ArrowDown":
+            if (y <= 200) {
+                y += 5;
+                myDiv.style.top = y + "px";
+            }
+            break;
+        case "ArrowUp":
+            if (y != 0) {
+                y -= 5;
+                myDiv.style.top = y + "px";
+            }
+            break;
+        case "ArrowRight":
+            if (x <= 300) {
+                x += 5;
+                myDiv.style.left = x + "px";
+            }
+            break;
+        case "ArrowLeft":
+            if (x != 0) {
+                x -= 5;
+                myDiv.style.left = x + "px";
+            }
+            break;
+        default:
+            break;
+    }
+}*/
