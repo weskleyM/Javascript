@@ -1270,3 +1270,36 @@ function begin() {
         }
     }
 }*/
+
+/*let canvas = document.getElementById("myCanvas");
+let context = canvas.getContext("2d");
+
+context.fillStyle = "orange";
+context.strokeStyle = "red";
+context.lineWidth = 5;
+context.beginPath();
+context.moveTo(0, 0);
+context.lineTo(125, 125);
+context.lineTo(125, 250);
+context.moveTo(250, 0);
+context.lineTo(125, 125);
+context.stroke();
+
+context.fillStyle = "green";
+context.lineWidth = 5;
+context.fillRect(150, 150, 240, 240);
+context.strokeRect(150, 150, 240, 240);
+
+context.fillStyle = "skyblue";
+context.lineWidth = 5;
+context.beginPath();
+context.arc(55, 195, 50, 0, 2 * Math.PI, true);
+context.stroke();
+context.fill();
+
+context.fillStyle = "black";
+context.font = "15px arial";
+context.textAlign = "center";
+context.fillText("HELLO WORLD", canvas.width / 2, 50);*/
+
+// 6h02m30s
