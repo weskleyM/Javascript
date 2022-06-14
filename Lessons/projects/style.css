@@ -1,0 +1,21 @@
+.timerBtn {
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#timerDisplay {
+    font-size: 65px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#timerContainer {
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}
