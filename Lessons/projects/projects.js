@@ -105,3 +105,5 @@ function checkWinner() {
         return player == "Pedra" ? "Você Ganhou!" : "Você Perdeu!";
     }
 }*/
+
+// 6h46m50s
