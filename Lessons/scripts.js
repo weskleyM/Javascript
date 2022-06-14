@@ -1302,4 +1302,23 @@ context.font = "15px arial";
 context.textAlign = "center";
 context.fillText("HELLO WORLD", canvas.width / 2, 50);*/
 
-// 6h02m30s
+/*console.dir(window);
+console.log(innerWidth);
+console.log(innerHeight);
+console.log(window.scrollX);
+console.log(window.screenY);
+
+console.log(window.location.href);
+console.log(window.location.hostname);
+console.log(location.pathname);
+
+const myBtn = document.querySelector("#myBtn");
+// myBtn.addEventListener("click", () => window.open("https://www.google.com"));
+// myBtn.addEventListener("click", () => window.close());
+// myBtn.addEventListener("click", () => window.print());
+
+let age = window.prompt("Digite sua idade");
+if (age < 18) {
+    window.alert("Você precisa ter no mínimo 18 anos para acessar este site!");
+    window.close();
+}*/
