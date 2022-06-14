@@ -1322,3 +1322,53 @@ if (age < 18) {
     window.alert("Você precisa ter no mínimo 18 anos para acessar este site!");
     window.close();
 }*/
+
+/*function setCookie(nome, valor, diasAtivo) {
+    const date = new Date();
+    date.setTime(date.getTime() + diasAtivo * 24 * 60 * 60 * 1000);
+    let expires = "expires=" + date.toUTCString();
+    document.cookie = `${nome}=${valor}; ${expires}; path=/`;
+}
+
+function deleteCookie(nome) {
+    setCookie(nome, null, null);
+}
+
+function getCookie(nome) {
+    const cDecode = decodeURIComponent(document.cookie);
+    const cArray = cDecode.split("; ");
+    let result = null;
+    cArray.forEach((elem) => {
+        if (elem.indexOf(nome) == 0) {
+            result = elem.substring(nome.length + 1);
+        }
+    });
+    return result;
+}
+
+// document.cookie = "firstName=Joao; expires=Sun, 1 January 2030 12:00:00 UTC; path=/";
+// document.cookie = "lastName=Paulo; expires=Sun, 1 January 2025 12:00:00 UTC; path=/";
+//setCookie("email", "teste@gmail.com", 365);
+
+// setCookie("firstName", "Joao", 365);
+// setCookie("lastName", "Paulo", 365);
+// console.log(getCookie("firstName"));
+// console.log(getCookie("lastName"));
+// deleteCookie("firstName");
+// deleteCookie("lastName");
+// deleteCookie("email");
+
+const firstText = document.querySelector("#firstText");
+const lastText = document.querySelector("#lastText");
+const saveBtn = document.querySelector("#saveBtn");
+const cookieBtn = document.querySelector("#cookieBtn");
+
+saveBtn.addEventListener("click", () => {
+    setCookie("firstName", firstText.value, 365);
+    setCookie("lastName", lastText.value, 365);
+});
+
+cookieBtn.addEventListener("click", () => {
+    firstText.value = getCookie("firstName");
+    lastText.value = getCookie("lastName");
+});*/
